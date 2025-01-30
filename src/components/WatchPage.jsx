@@ -28,7 +28,7 @@ const WatchPage = () => {
     <div className="flex flex-col w-full">
       {" "}
       <div className="px-5 flex w-full">
-        <div>
+        <div className="w-[65%]">
           <iframe
             width="1200"
             height="600"
@@ -42,7 +42,7 @@ const WatchPage = () => {
           <Description text={videoContent.description} />
           {/* {videoContent && <Description text={videoContent.description} />} */}
         </div>
-        <div className="w-full ">
+        <div className="w-[35%] ">
           <LiveChat />
         </div>
       </div>

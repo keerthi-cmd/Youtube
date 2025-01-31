@@ -9,7 +9,6 @@ import MainContainer from "./components/MainContainer";
 import WatchPage from "./components/WatchPage";
 
 function App() {
-  const [count, setCount] = useState(0);
   const appRouter = createBrowserRouter([
     {
       path: "/",
